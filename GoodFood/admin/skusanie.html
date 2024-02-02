@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="sk">
+
+<head>
+    <meta charset='utf-8'>
+    <title>Nazov stranky</title>
+   
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <style>
+        hr {background-color: green;
+            height: 1px;
+            border:none;
+        }
+        .napoje { color: aquamarine;
+                font-weight: 400;    
+                text-decoration: none;    
+        }
+        li{
+            font-size: 20px;
+        }
+        mark{background-color: red;
+        color: yellow;}
+
+        #odkazy {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#odkazy td, #odkazy th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.ucmlogo{
+    width: 70px;
+    height: 150px;
+    border-radius: 30%;
+}
+.center{text-align: center;
+        color: rgb(170, 26, 170);}
+    </style>
+</head>
+
+<body><section id="section1">
+    <h1>Skúšanie pred skuškou(tagy,style,all)</h1>
+</section> 
+    <p>potrebujem oddeliť tieto paragrafy (---1---)</p><hr> 
+    <p>potrebujem oddeliť tieto paragrafy (---2---)</p><hr>
+    <p>potrebujem oddeliť tieto paragrafy (---3---)</p><hr>
+     <!-- TOTO JE KOMENT -->
+
+    <p>tento text je <sub>dolny index</sub></p>
+    <p>tento text je <sup>horný index</sup></p>
+    <s>prečiarknutý text</s>                            <br>
+    <strong>Hrubý / dôležitý text</strong>              <br>
+    <b>Bold text</b>                                    <br>
+    <mark>Vyznačený text</mark>                         <br>
+    <i>Kurzíva</i>                                      <br>
+    <em>Zdôraznený text</em>                            <br>
+    <u>Defines some text that is unarticulated and styled differently from normal text(podčiarknutý text)</u>
+
+    <ol>
+        <li>napoje
+            <ul class="napoje">
+                <li>kava</li>
+                <li>čaj</li>
+                <li>voda</li>
+            </ul>
+        </li>
+        <li>jedlá</li>
+        <li>dezerty</li>
+        <li>prilohy
+            <ul>
+                <li>omačky</li>
+                <li>zemiaky</li>
+                <li>ryža</li>
+            </ul>
+        </li>
+    </ol>
+
+    <dl>
+        <dt>Coffee</dt>
+        <dd>Black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>White cold drink</dd>
+      </dl>
+
+
+      <table id="odkazy">
+        <tr>
+            <th>Odkaz na UCM</th>
+            <th>Odkaz na KAI FPV</th>
+            <th>Osobný text</th>
+        </tr> 
+        
+        <tr>
+              <td><a href="http://fpv.ucm.sk/sk" target="_blank"> <img class="ucmlogo"
+                src="../images/ucm.png" alt="UCM"></a></td>
+                <td><a href="https://kai.fpv.ucm.sk/" target="_blank"><img class="kaifpv" src="../images/gflogo.png"></a>
+                </td>
+                <td>Niečo tu má byť</td>
+          </tr>
+        <tr>
+            <td>Toto je naša UCM stranka</td>
+            <td>Toto je naša kai grid fpv stránka</td>
+            <td>tuto absolutne netušim čo dať</td>
+        </tr>
+      </table>
+
+      <p class="center">tento text</p>
+      <p class="center">by mohol byť</p>
+      <p class="center">aj trošku vycentrovaný</p>
+      
+
+    <a href="#section1">Scroll page up</a>
+
+
+</body>
+
+</html>
